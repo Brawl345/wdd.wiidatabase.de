@@ -15,7 +15,6 @@
     <!-- Custom styles for this template -->
     <link href="static/css/template.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 <?php $agent = $_SERVER['HTTP_USER_AGENT'];
 if(preg_match('/Linux/',$agent)) $os = 'Linux';
 elseif(preg_match('/Win/',$agent)) $os = 'Windows';
