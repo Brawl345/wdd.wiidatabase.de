@@ -10,7 +10,7 @@ include("templates/navbar.php");
 	    	<div class="row centered">
 	    		<div class="col-lg-12">
 					<h1><b>WDD</b></h1>
-					<h3>WiiDataDownloader - ein Homebrew-Downloader für Windows.</h3>
+					<h3>WiiDataDownloader - ein Wii-Homebrew-Downloader für Windows.</h3>
 		<?php if ($os == "Windows") {echo '<a class="btn btn-lg btn-danger" href="download.php" role="button">DOWNLOADE WDD</a>';}
 		else {echo '<h3>Der WiiDataDownloader ist für dein Betriebssystem leider nicht verfügbar.</h3><br><p>Du kannst WDD aber <a href="download.php">trotzdem downloaden</a>.</p>';}?>
 					          <br><br>
