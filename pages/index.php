@@ -80,10 +80,10 @@ include("templates/navbar.php");
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner">
 					    <div class="item active">
-					      <img src="js/holder.js/900x517" alt="Screen">
+					      <img src="img/wdd1.png" height="643" width="820" alt="Downloadansicht">
 					    </div>
 					    <div class="item">
-					      <img src="js/holder.js/900x517" alt="Screen">
+					      <img src="img/wdd2.png" height="403" width="700" alt="Optionen">
 					    </div>
 					  </div>
 					</div>
