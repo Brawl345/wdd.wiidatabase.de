@@ -10,7 +10,7 @@
     <title><?php echo $config_page['maintitle'] . " | " . $shownpage_page['title']; ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="static/css/template.css" rel="stylesheet">
