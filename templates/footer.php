@@ -14,7 +14,7 @@
 	</div>
 	<div id="c">
 		<div class="container">
-			<p>Erstellt von <a href="http://wiidatabase.de">WiiDatabase.de</a>, &copy; 2014-2015 WiiDatabase Team</p>
+			<p>Erstellt von <a href="http://wiidatabase.de">WiiDatabase.de</a>, &copy; 2014-<?php echo date("Y"); ?> WiiDatabase Team</p>
 		
 		</div>
 	</div>
