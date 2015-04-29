@@ -23,7 +23,7 @@ include("templates/navbar.php");
 	    			<img class="hidden-xs hidden-sm hidden-md" src="img/arrow1.png" alt="Pfeil">
 	    		</div>
 	    		<div class="col-lg-8">
-	    			<img class="img-responsive" src="img/app-bg.png" alt="WDD Screenshot"><br>
+	    			<img class="img-responsive" src="img/wdd.png" alt="WDD Screenshot"><br>
 	    		</div>
 	    		<div class="col-lg-2">
 	    			<br>
@@ -75,15 +75,23 @@ include("templates/navbar.php");
 					  <ol class="carousel-indicators">
 					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 					  </ol>
 					
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner">
 					    <div class="item active">
-					      <img src="img/wdd1.png" height="643" width="820" alt="Downloadansicht">
+					      <a href="img/wdd.png"><img src="img/wdd.png" alt="Hauptmenü"></a>
 					    </div>
 					    <div class="item">
-					      <img src="img/wdd2.png" height="403" width="700" alt="Optionen">
+					      <a href="img/wdd1.png"><img src="img/wdd1.png" alt="Downloadansicht"></a>
+					    </div>
+					    <div class="item">
+					      <a href="img/wdd2.png"><img src="img/wdd2.png" alt="Optionen"></a>
+					    </div>
+						<div class="item">
+					      <a href="img/wdd3.png"><img src="img/wdd3.png" alt="Module"></a>
 					    </div>
 					  </div>
 					</div>
