@@ -1,5 +1,5 @@
 <?php
-$shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "Der Homebrew-Downloader - immer aktuell");
+$shownpage_page = array("page_idf" => "index", "title" => "Home", "description" => "Der Homebrew-Downloader wurde eingestellt (Ankündigung)");
 include("templates/headInclude.php");
 include("templates/navbar.php");
 ?>
@@ -9,99 +9,35 @@ include("templates/navbar.php");
     <?php include("templates/meldungen.php"); ?>
 	    	<div class="row centered">
 	    		<div class="col-lg-12">
-					<h1><b>WDD</b></h1>
-					<h3>WiiDataDownloader - ein Wii-Homebrew-Downloader für Windows.</h3>
-		<?php if ($os == "Windows") {echo '<a class="btn btn-lg btn-danger" href="download.php" role="button">DOWNLOADE WDD</a>';}
-		else {echo '<h3>Der WiiDataDownloader ist für dein Betriebssystem leider nicht verfügbar.</h3><br><p>Du kannst WDD aber <a href="download.php">trotzdem downloaden</a>.</p>';}?>
-					          <br><br>
-					          
+					<h1><strong>Ein wichtiger Hinweis</strong></h1>
+					<h3>Der Wii-Homebrew-Downloader für Windows "WDD" wurde eingestellt.</h3><br><br>          
 	    		</div>
 	    		
-	    		<div class="col-lg-2">
-	    			<h5>Schnell. Aktuell & Zuverlässig</h5>
-	    			<p>WDD ist rasend schnell. Und du erhälst immer aktuelle Downloads.</p>
-	    			<img class="hidden-xs hidden-sm hidden-md" src="img/arrow1.png" alt="Pfeil">
-	    		</div>
-	    		<div class="col-lg-8">
-	    			<img class="img-responsive" src="img/wdd.png" alt="WDD Screenshot"><br>
-	    		</div>
-	    		<div class="col-lg-2">
-	    			<br>
-	    			<img class="hidden-xs hidden-sm hidden-md" src="img/arrow2.png" alt="Pfeil">
-	    			<h5>Sicher</h5>
-	    			<p>WDD prüft jeden Download mithilfe eines Hashs und downloadet ggf. die App neu, wenn sie beschädigt ist.</p>
+	    		<div class="col-lg-12">
+	    			<h2><strong>Eine Nachricht vom WiiDatabase Team</strong></h2>
+	    			<p>Vielen Dank für dein Interesse am WiiDataDownloader, dem Wii-Homebrew-Downloader für Windows. Leider müssen wir dir mitteilen, dass die Entwicklung am Programm am 16. November 2015 eingestellt wurde.<br>
+					Den Code des Programms findest du weiterhin auf <a href="https://github.com/Brawl345/WiiDataDownloader" target="_blank">GitHub</a>.</p>
+					
+					<h2><strong>F.A.Q.</strong></h2>
+					<p><strong>Warum wird WDD eingestellt?</strong><br>
+					Das ganze ist eine Ein-Mann-Show und dementsprechend fehlt es an Personen, die das Projekt unabhängig weiterleiten würden. Downloads neu packen, jeden Download verifizieren, etc., das Ganze tue ich schon auf der WiiDatabase selbst, warum also nicht mal <a href="http://wiidatabase.de">dort vorbeischauen?</a></p>
+					
+					<p><strong>Wann wird WDD eingestellt?</strong><br>
+					Die Entwicklung wird mit sofortiger Wirkung am 16. November 2015 eingestellt.
+					</p>
+					
+					<p><strong>Wie lange kann ich WDD noch benutzen?</strong><br>
+					Bis zum 29. November 2015, danach ist es nicht mehr möglich, Daten vom Server herunterzuladen. Die Webseite bleibt bis zum 3. Dezember 2015 bestehen.
+					</p>
+					
+					<p><strong>Wo finde ich die Downloads danach?</strong><br>
+					Nachwievor auf WiiDatabase.de. Nachfolgend eine Auflistung aller Programme, die über WDD heruntergeladen werden konnten:<br>
+					<a href="http://wiidatabase.de/downloads/pc-tools/customizemii-2/">CustomizeMii</a> - <a href="http://wiidatabase.de/downloads/pc-tools/devkitppc/">devkitPro</a> - <a href="http://wiidatabase.de/downloads/pc-tools/dmlizard/">DMLizard</a> - <a href="http://wiidatabase.de/downloads/pc-tools/nus-downloader/">NUSD</a> - <a href="http://wiidatabase.de/downloads/pc-tools/showmiiwads/">ShowMiiWads</a> - <a href="http://wiidatabase.de/downloads/pc-tools/usbloader-gx-theme-creator/">USBLoader GX Theme Creator</a> - <a href="http://wiidatabase.de/downloads/pc-tools/wbfs2fat/">WBFS2FAT</a> - <a href="http://wiidatabase.de/downloads/pc-tools/wii-backup-manager/">Wii Backup Manager</a> - <a href="http://wiidatabase.de/downloads/pc-tools/wiigsc-ehemals-crap/">WiiGSC</a> - <a href="http://wiidatabase.de/downloads/pc-tools/wilbrand-launcher/">Wilbrand Launcher</a>
+					</p>
 	    		</div>
 	    	</div>
 	    </div> <!--/ .container -->
 	</div><!--/ #headerwrap -->
-
-
-
-	<!-- INTRO WRAP -->
-	<div id="intro">
-		<div class="container">
-			<div class="row centered">
-				<h1>Für dich geschaffen</h1>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<img src="img/intro01.png" alt="Offen">
-					<h3>Offen</h3>
-					<p>Die Entwicklung läuft offen und transparent auf <a href="https://github.com/Brawl345/WiiDataDownloader" target="_blank">GitHub</a>.</p>
-				</div>
-				<div class="col-lg-4">
-					<img src="img/intro02.png" alt="Aktuell">
-					<h3>Aktuell</h3>
-					<p>Der WiiDataDownloader downloadet immer aktuelle Homebrews.</p>
-				</div>
-				<div class="col-lg-4">
-					<img src="img/wiidatabase.png" width="130" height="130" alt="Von der WiiDatabase">
-					<h3>Von der WiiDatabase</h3>
-					<p>Der WiiDataDownloader wurde geschrieben vom <a href="http://wiidatabase.de" target="_blank">WiiDatabase Team</a> und steht jedem frei zur Verfügung.</p>
-				</div>
-			</div>
-			<br>
-	    </div> <!--/ .container -->
-	</div><!--/ #introwrap -->
-
-	<div id="showcase">
-		<div class="container">
-			<div class="row">
-				<h1 class="centered">Screenshots</h1>
-				<br>
-				<div class="col-lg-8 col-lg-offset-2">
-					<div id="carousel-example-generic" class="carousel slide">
-					  <!-- Indicators -->
-					  <ol class="carousel-indicators">
-					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-					  </ol>
-					
-					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner">
-					    <div class="item active">
-					      <a href="img/wdd.png"><img src="img/wdd.png" alt="Hauptmenü"></a>
-					    </div>
-					    <div class="item">
-					      <a href="img/wdd1.png"><img src="img/wdd1.png" alt="Downloadansicht"></a>
-					    </div>
-					    <div class="item">
-					      <a href="img/wdd2.png"><img src="img/wdd2.png" alt="Optionen"></a>
-					    </div>
-						<div class="item">
-					      <a href="img/wdd3.png"><img src="img/wdd3.png" alt="Module"></a>
-					    </div>
-					  </div>
-					</div>
-				</div>
-			</div>
-			<br>
-			<br>
-			<br>	
-		</div><!-- /container -->
-	</div>	
 
 <?php include("templates/footer.php"); ?>
 <?php include("templates/htmlEnd.php"); ?>

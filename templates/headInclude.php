@@ -15,10 +15,5 @@
     <!-- Custom styles for this template -->
     <link href="static/css/template.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-<?php $agent = $_SERVER['HTTP_USER_AGENT'];
-if(preg_match('/Linux/',$agent)) $os = 'Linux';
-elseif(preg_match('/Win/',$agent)) $os = 'Windows';
-elseif(preg_match('/Mac/',$agent)) $os = 'Mac';
-else $os = 'Unbekannt'; ?>
   </head>
 <body>
